@@ -6,6 +6,17 @@
  * @param {?} value - value to fill
  * @returns {Array}
  */
+//  export const fill = (arraySize, value) => Array.from({ length: arraySize }, () => value);
 export const fill = (arraySize, value) => {
-  throw new Error(`put your solution here ${arraySize}, ${value}`);
+
+  //return Array(arraySize).fill(value);
+
+
+  let a=[];
+  for (let index = 0; index < arraySize; index++) {
+    a.push(value);
+    
+  }
+  return a;
 };
+console.log(fill(5,'-1'));
