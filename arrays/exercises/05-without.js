@@ -6,6 +6,10 @@
  * @param {?} args list of values to remove
  * @returns {Array}
  */
-export const without = (array, ...args) => {
-  throw new Error(`put your solution here ${array} ${args}`);
+
+export const without = (array,...args) => {
+  console.log(args)
+ return array.filter(x=> ! args.includes(x))
 };
+
+console.log(without([1, 2, 3, 1, 2],1,2,3))

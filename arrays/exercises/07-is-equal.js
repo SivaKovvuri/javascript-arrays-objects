@@ -7,5 +7,15 @@
  * @returns {boolean}
  */
 export const isEqual = (firstArray, secondArray) => {
-  throw new Error(`put your solution here ${firstArray} ${secondArray}`);
+  if(firstArray.length != secondArray.length){
+    return false;
+  }
+  for (let i = 0; i < firstArray.length; i++) {
+
+    if (firstArray[i] != secondArray[i]) {
+      return false;
+    }}
+
+  return true;
 };
+console.log(isEqual([1, 2, 3], [1, 2, 3,7]))

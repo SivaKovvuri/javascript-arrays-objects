@@ -6,5 +6,14 @@
  * @returns {Array}
  */
 export const unique = (array) => {
-  throw new Error(`put your solution here ${array}`);
+  return array.reduce((result,element)=>{
+      console.log('result',result)
+      console.log('element',element)
+       if(!result.includes(element)){
+        result.push(element)
+       }
+       return result;
+    },[]);
+    
 };
+console.log(unique([1, 2, 3, 1, 2]))
