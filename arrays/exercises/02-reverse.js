@@ -5,6 +5,19 @@
  * @param {Array} array - Array of any elements
  * @returns {Array}
  */
+
+
+
 export const reverse = (array) => {
-  throw new Error(`put your solution here ${array}`);
+
+  let a=[];
+  for (let index = array.length-1; index>=0; index--) {
+    console.log(index)
+    a.push(array[index])
+    
+  }
+  return a;
+  //return array.reverse();
+
 };
+console.log(reverse([1,2,3,4]))

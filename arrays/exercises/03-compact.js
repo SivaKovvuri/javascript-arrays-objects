@@ -6,5 +6,8 @@
  * @returns {Array}
  */
 export const compact = (array) => {
-  throw new Error(`put your solution here ${array}`);
+  //return array.filter(x=>!!x);
+  //return array.filter(Boolean)
+  
 };
+console.log(compact([0, 1, false, 2, undefined, '', 3, null] ))
