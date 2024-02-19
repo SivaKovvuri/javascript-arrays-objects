@@ -1,5 +1,9 @@
 {
-    "type": "module",
-    "name": "07-is-equal.js"
+  "scripts": {
+    "start": "nodemon -q arrays/exercises/reducefn.js"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
-      
+}

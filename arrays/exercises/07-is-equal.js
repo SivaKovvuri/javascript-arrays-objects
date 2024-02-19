@@ -18,4 +18,4 @@ export const isEqual = (firstArray, secondArray) => {
 
   return true;
 };
-console.log(isEqual([1, 2, 3], [1, 2, 3,7]))
+console.log('log values',isEqual([1, 2, 3], [1, 2, 3]))
